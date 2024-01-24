@@ -13,7 +13,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
  
-DEFAULT_EXPIRATION_DAYS = 10
 MAX_EXPIRATION_DAYS = 60
  
 class Settings:
