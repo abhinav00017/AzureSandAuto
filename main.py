@@ -16,18 +16,10 @@ load_dotenv()
 DEFAULT_EXPIRATION_DAYS = 10
 MAX_EXPIRATION_DAYS = 60
  
- 
 class Settings:
- 
-    AZURE_SUBSCRIPTION_ID="255b19ed-b087-4a1e-bff7-5c35f0b81de6"
- 
-    EMAIL_CONNECTION_STRING = "endpoint==https://azuresandbox-cs.unitedstates.communication.azure.com/;accesskey=4gkGUXclznznYo6cdym02mtsttWqNM7nW1jFuukIhGlBERYCCXkj3VWYdHJpIbg175WWbXKNrw7+0yKphudXaA=="
-    SENDER_EMAIL = "DoNotReply@e4d07ba0-c84a-41e3-8ae4-058b3e906ec8.azurecomm.net"
-
-    # AZURE_SUBSCRIPTION_ID="9d8a8ab0-82b4-431b-b91e-725a947e24b6"
- 
-    # EMAIL_CONNECTION_STRING="endpoint=https://teftestemail.unitedstates.communication.azure.com/;accesskey=9tOL2juQUz0qwkmFeQllXElzrjcp0iair8bgsx6o7oX3GVLjq+7BJdbmlmIQopHKuDc2RLDY21W8JFpysgYSQQ=="
-    # SENDER_EMAIL="DoNotReply@ee491358-6a5b-4dfc-888b-91fc11f9011c.azurecomm.net"
+    AZURE_SUBSCRIPTION_ID="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+    EMAIL_CONNECTION_STRING = "endpoint==https://azurexxxxxxxxx.xxxxxxxxx.communication.azure.com/;accesskey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    SENDER_EMAIL = "xxxxxxx@XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX.azurecomm.net"
  
 Settings=Settings()
  
